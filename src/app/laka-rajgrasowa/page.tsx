@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Łąka rajgrasowa",
 };
 
-export default function ŁąkaRajgrasowaPage() {
+export default function LakaRajgrasowaPage() {
   return (
     <div className="flex w-full flex-col">
       <Masthead>Łąka rajgrasowa</Masthead>

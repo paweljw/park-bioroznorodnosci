@@ -116,7 +116,7 @@ export default function Map() {
             />
           </Link>
 
-          <Link href="/subkontynentalny">
+          <Link href="/grad-subkontynentalny">
             <path
               d="M 791.90694,107.97312 630.89792,55.813677 190.71556,8.3607532 18.529237,177.15758 308.66997,299.17939 301.43905,423.68682 595.69667,506.0162 597.3899,343.60233 759.57887,149.86931 Z"
               id="map-subkontynentalny"
@@ -332,14 +332,14 @@ export default function Map() {
           >
             <span className="inline-block h-10 w-10 rounded-full border-4 border-black bg-green-700"></span>
             <Link
-              href="/subkontynentalny"
+              href="/grad-subkontynentalny"
               className={getTextClass(
                 "subkontynentalny",
                 "text-xl font-bold",
                 "text-green-700",
               )}
             >
-              Subkontynentalny
+              Grąd subkontynentalny
             </Link>
           </li>
           <li
