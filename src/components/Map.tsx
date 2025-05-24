@@ -239,7 +239,7 @@ export default function Map() {
         </svg>
       </div>
       <div className="flex flex-col gap-2">
-        <ul className="flex flex-col gap-2 md:flex-row md:flex-wrap md:justify-center md:gap-4">
+        <ul className="flex flex-col gap-2 px-4 md:flex-row md:flex-wrap md:justify-center md:gap-4 md:p-0">
           <li
             className="flex cursor-pointer items-center gap-2"
             onMouseEnter={() => setCurrentHover("subatlantycki-bor")}
@@ -247,7 +247,7 @@ export default function Map() {
           >
             <span className="inline-block h-10 w-10 rounded-full border-4 border-black bg-rose-900"></span>
             <Link
-              href="/subatlantycki-bór"
+              href="/subatlantycki-bor"
               className={getTextClass(
                 "subatlantycki-bor",
                 "text-xl font-bold",
@@ -281,7 +281,7 @@ export default function Map() {
           >
             <span className="inline-block h-10 w-10 rounded-full border-4 border-black bg-orange-500"></span>
             <Link
-              href="/podgórski-łęg"
+              href="/podgorski-leg"
               className={getTextClass(
                 "podgorski-leg",
                 "text-xl font-bold",
@@ -298,7 +298,7 @@ export default function Map() {
           >
             <span className="inline-block h-10 w-10 rounded-full border-4 border-black bg-amber-500"></span>
             <Link
-              href="/łęg-wierzbowy"
+              href="/leg-wierzbowy"
               className={getTextClass(
                 "leg-wierzbowy",
                 "text-xl font-bold",
@@ -315,7 +315,7 @@ export default function Map() {
           >
             <span className="inline-block h-10 w-10 rounded-full border-4 border-black bg-yellow-300"></span>
             <Link
-              href="/łęg-topolowy"
+              href="/leg-topolowy"
               className={getTextClass(
                 "leg-topolowy",
                 "text-xl font-bold",
@@ -383,7 +383,7 @@ export default function Map() {
           >
             <span className="inline-block h-10 w-10 rounded-full border-4 border-black bg-blue-900"></span>
             <Link
-              href="/łąka-rajgrasowa"
+              href="/laka-rajgrasowa"
               className={getTextClass(
                 "laka-rajgrasowa",
                 "text-xl font-bold",
@@ -400,7 +400,7 @@ export default function Map() {
           >
             <span className="inline-block h-10 w-10 rounded-full border-4 border-black bg-violet-900"></span>
             <Link
-              href="/rośliny-wrzosowate"
+              href="/rosliny-wrzosowate"
               className={getTextClass(
                 "rosliny-wrzosowate",
                 "text-xl font-bold",
@@ -417,14 +417,14 @@ export default function Map() {
           >
             <span className="inline-block h-10 w-10 rounded-full border-4 border-black bg-pink-300"></span>
             <Link
-              href="/rośliny-środkowoeuropejskie"
+              href="/rosliny-srodkowoeuropejskie"
               className={getTextClass(
                 "rosliny-srodkowoeuropejskie",
                 "text-xl font-bold",
                 "text-pink-500",
               )}
             >
-              Rośliny środkowoeuropejskie
+              Rośliny srodkowoeuropejskie
             </Link>
           </li>
           <li

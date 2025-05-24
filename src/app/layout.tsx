@@ -1,10 +1,13 @@
 import "~/styles/globals.css";
 
 import { type Metadata, type Viewport } from "next";
-import { Geist } from "next/font/google";
+import { Figtree } from "next/font/google";
 
 export const metadata: Metadata = {
-  title: "Park Bioróżnorodności w Sosnowcu",
+  title: {
+    template: "%s | Park Bioróżnorodności w Sosnowcu",
+    default: "Park Bioróżnorodności w Sosnowcu",
+  },
   description:
     "Park Bioróżnorodności w Sosnowcu przy ulicach Kresowej oraz Piłsudskiego, obok Egzotarium.",
   keywords: [
@@ -28,16 +31,16 @@ export const viewport: Viewport = {
   colorScheme: "light",
 };
 
-const geist = Geist({
-  subsets: ["latin"],
-  variable: "--font-geist-sans",
+const figtree = Figtree({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-figtree",
 });
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${geist.variable}`}>
+    <html lang="en" className={`${figtree.variable}`}>
       <body className="bg-neutral-200">
         <main className="container mx-auto flex min-h-screen flex-col items-center bg-white text-black">
           {children}
