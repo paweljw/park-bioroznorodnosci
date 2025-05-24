@@ -239,7 +239,7 @@ export default function Map() {
         </svg>
       </div>
       <div className="flex flex-col gap-2">
-        <ul className="flex flex-col gap-2 px-4 md:flex-row md:flex-wrap md:justify-center md:gap-4 md:p-0">
+        <ul className="flex flex-col gap-2 px-4 md:flex-row md:flex-wrap md:justify-center md:gap-4">
           <li
             className="flex cursor-pointer items-center gap-2"
             onMouseEnter={() => setCurrentHover("subatlantycki-bor")}
