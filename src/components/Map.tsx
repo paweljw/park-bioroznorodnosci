@@ -424,7 +424,7 @@ export default function Map() {
                 "text-pink-500",
               )}
             >
-              Rośliny srodkowoeuropejskie
+              Rośliny środkowoeuropejskie
             </Link>
           </li>
           <li
