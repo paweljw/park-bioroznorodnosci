@@ -21,7 +21,7 @@ export default function ŁąkaRajgrasowaPage() {
         kolejowych, przydroża oraz ugory. Często notowane są w przesuszonych
         częściach dolin rzek (...)
       </blockquote>
-      <p className="mx-auto max-w-4xl text-center text-sm text-gray-500">
+      <p className="mx-auto max-w-4xl p-4 text-center text-sm text-gray-500">
         Za:{" "}
         <Link
           href="https://www.wigry.org.pl/siedliska/6510_1.htm"
