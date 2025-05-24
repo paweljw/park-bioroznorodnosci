@@ -2,6 +2,7 @@ import "~/styles/globals.css";
 
 import { type Metadata, type Viewport } from "next";
 import { Figtree } from "next/font/google";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: {
@@ -42,9 +43,33 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${figtree.variable}`}>
       <body className="bg-neutral-200">
-        <main className="container mx-auto flex min-h-screen flex-col items-center bg-white text-black">
-          {children}
-        </main>
+        <div className="container mx-auto flex min-h-screen flex-col gap-8 bg-white">
+          <main className="flex flex-grow flex-col items-center bg-white text-black">
+            {children}
+          </main>
+          <footer className="flex flex-col items-center bg-white p-4 text-center text-black">
+            <p className="text-sm text-gray-500">
+              Zaprojektował i zbudował{" "}
+              <Link
+                href="https://cooling.coffee"
+                className="text-blue-500 underline"
+              >
+                Paweł J. Wal
+              </Link>
+              . To jest nieoficjalna strona,{" "}
+              <Link href="/dlaczego" className="text-blue-500 underline">
+                zobacz dlaczego istnieje
+              </Link>
+              . Kontakt:{" "}
+              <Link
+                href="mailto:apka@park-bioroznorodnosci.pl"
+                className="text-blue-500 underline"
+              >
+                apka@park-bioroznorodnosci.pl
+              </Link>
+            </p>
+          </footer>
+        </div>
       </body>
     </html>
   );
